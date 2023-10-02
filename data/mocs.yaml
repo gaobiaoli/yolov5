@@ -1,0 +1,20 @@
+path: ../datasets/coco  # dataset root dir
+train: train2017.txt  # train images (relative to 'path') 118287 images
+val: val2017.txt  # val images (relative to 'path') 5000 images
+test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: Worker
+  1: Static crane
+  2: Hanging head
+  3: Crane
+  4: Roller
+  5: Bulldozer
+  6: Excavator
+  7: Truck
+  8: Loader
+  9: Pump truck
+  10: Concrete mixer
+  11: Pile driving
+  12: Other vehicle
